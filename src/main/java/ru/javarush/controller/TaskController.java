@@ -13,6 +13,7 @@ import java.util.stream.IntStream;
 import static java.util.Objects.isNull;
 
 @Controller
+@RequestMapping("/")
 public class TaskController {
 
     private final TaskService taskService;
